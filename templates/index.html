@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Match Prediction</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file for styling -->
+</head>
+<body>
+    <div class="container">
+        <h1 style="color:#ff0000">WEB DỰ ĐOÁN KẾT QUẢ Ở GIẢI PREMIER LEAGUE</h1>
+        <form id="prediction-form" action="/predict" method="post">
+            <div class="form-group">
+                <label for="home_team">HOME TEAM:</label>
+                <select id="home_team" name="home_team">
+                    <<option value="Liverpool">Liverpool</option>
+                    <option value="Manchester City">Manchester City</option>
+                    <option value="Arsenal">Arsenal</option>
+                    <option value="Aston Villa">Aston Villa</option>
+                    <option value="Tottenham">Tottenham</option>
+                    <option value="Manchester Utd">Manchester Utd</option>
+                    <option value="West Ham">West Ham</option>
+                    <option value="Newcastle">Newcastle</option>
+                    <option value="Arsenal">Arsenal</option>
+                    <option value="Brighton">Brighton</option>
+                    <option value="Wolves">Wolves</option>
+                    <option value="Chelsea">Chelsea</option>
+                    <option value="Fulham">Fulham</option>
+                    <option value="Bournemouth">Bournemouth</option>
+                    <option value="Crystal Palace">Crystal Palace</option>
+                    <option value="Brentford">Brentford</option>
+                    <option value="Everton">Everton</option>
+                    <option value="Nottingham">Nottingham</option>
+                    <option value="Luton"> Luton</option>
+                    <option value="Burnley">Burnley</option>
+                    <option value="Sheffield Utd">Sheffield Utd</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="away_team">AWAY TEAM:</label>
+                <select id="away_team" name="away_team">
+                    <option value="Liverpool">Liverpool</option>
+                    <option value="Manchester City">Manchester City</option>
+                    <option value="Arsenal">Arsenal</option>
+                    <option value="Aston Villa">Aston Villa</option>
+                    <option value="Tottenham">Tottenham</option>
+                    <option value="Manchester Utd">Manchester Utd</option>
+                    <option value="West Ham">West Ham</option>
+                    <option value="Newcastle">Newcastle</option>
+                    <option value="Arsenal">Arsenal</option>
+                    <option value="Brighton">Brighton</option>
+                    <option value="Wolves">Wolves</option>
+                    <option value="Chelsea">Chelsea</option>
+                    <option value="Fulham">Fulham</option>
+                    <option value="Bournemouth">Bournemouth</option>
+                    <option value="Crystal Palace">Crystal Palace</option>
+                    <option value="Brentford">Brentford</option>
+                    <option value="Everton">Everton</option>
+                    <option value="Nottingham">Nottingham</option>
+                    <option value="Luton"> Luton</option>
+                    <option value="Burnley">Burnley</option>
+                    <option value="Sheffield Utd">Sheffield Utd</option>
+                </select>
+            </div>
+            <button type="submit">Predict Now</button> <!-- Submit button for the form -->
+        </form>
+        <div id="prediction-result"></div> <!-- This is where the prediction result will be displayed -->
+    </div>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+<footer style="background-color: #A9A9A9;">
+    <p>Copyright © 2024 - THPT BÙI THỊ XUÂN</p>
+
+</footer>
+</html>
